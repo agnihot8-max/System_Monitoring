@@ -10,7 +10,6 @@ LOG_FILENAME = 'system_log.csv'
 
 
 def main():
-    """Main function to run monitoring and anomaly detection."""
 
     print(f"Loading anomaly detection model from {MODEL_FILENAME}...")
     try:
@@ -69,4 +68,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
