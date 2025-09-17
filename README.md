@@ -37,7 +37,7 @@ Output: This will generate two files:
   
 Output: This will create one file:
   
-  anomaly_detector.joblib: This file contains the trained machine learning model, ready to be used for real-time detection.
+  anomaly_detector.joblib: This file contains the trained machine learning model, ready to be used for real-time detection. (You can use the one I provided based on my computers habits)
   
   Step 3: Run the Real-Time Anomaly Detector
   With a trained model, you can now run the anomaly_detector.py script to monitor your system in real-time. It will use the model to analyze current CPU and memory usage and will flag any data points it considers anomalous.
